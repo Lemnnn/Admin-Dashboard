@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: start;
+}
+
+.sideBar {
+  height: 100vh;
+  width: 18vw;
+  background-color: #6366f1;
+}
+
+.sideBarContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+  color: white;
+  width: 100%;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sideBarButton {
+  text-align: start;
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  padding: 10px 0px;
+  padding-left: 20px;
+  &:hover {
+    background-color: #4f46e5;
+  }
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  background-color: #e2e8f0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  gap: 20px;
+  background-color: white;
+}
+
+.searchBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-inline: 40px;
+}
+
+.searchBar {
+  border-radius: 120px;
+  border: none;
+  width: 800px;
+  height: 30px;
+  background-color: #e2e8f0;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profilePic {
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 120px;
+}
+
+.welcomeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40px;
+  padding-bottom: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.userPic {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 120px;
+}
+
+.userButtonGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.userButton {
+  background-color: #6366f1;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 120px;
+  color: white;
+  font-weight: bold;
+}
