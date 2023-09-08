@@ -129,6 +129,13 @@
   font-weight: bold;
 }
 
+.contentSection {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+}
+
 .projectsSection {
   padding-left: 20px;
   padding-top: 10px;
@@ -160,4 +167,62 @@
 
 .projectCard h2 {
   margin-bottom: 10px;
+}
+
+.rightSections {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 100%;
+  width: 100%;
+}
+
+.announcementsSection {
+  padding-right: 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.announcements {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  width: 375px;
+}
+
+.divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 10px 0px;
+}
+
+.announcement h3 {
+  margin-bottom: 5px;
+}
+
+.trending {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.trendingUser {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.userData p {
+  color: rgba(0, 0, 0, 0.4);
 }
